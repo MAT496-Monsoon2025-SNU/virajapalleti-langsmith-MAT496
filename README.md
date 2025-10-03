@@ -54,3 +54,12 @@ Evaluators compare the dataset example against the output run from your app
 
 Different evaluators catch different failure modes - similarity alone isn't enough, need to check correctness and hallucinations separately.  
  [module02/Evaluator](module02/Evaluator.ipynb)
+
+_Lesson03: Experiments_  
+Experiments combine datasets and evaluators - run your app over a dataset and evaluate all outputs at once.
+
+- Full dataset evaluation
+- Partial runs using splits and tag filters
+- Compared different OpenAI models (gpt-4o-mini vs others) for runtime differences
+- Multiple concurrent experiment runs  
+  [modules02/Experiments](module02/Experiments.ipynb)
