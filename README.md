@@ -63,3 +63,7 @@ Experiments combine datasets and evaluators - run your app over a dataset and ev
 - Compared different OpenAI models (gpt-4o-mini vs others) for runtime differences
 - Multiple concurrent experiment runs  
   [modules02/Experiments](module02/Experiments.ipynb)
+
+_Lesson04: Analyzing Experiments_  
+Analyzed experiment results to identify patterns and insights. Documented key observations  
+[module02/AnalyzingExperiments](module02/AnalyzingExperimentResults.ipynb)
