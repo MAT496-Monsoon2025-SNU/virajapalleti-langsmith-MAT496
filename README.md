@@ -42,4 +42,15 @@ Created a custom dataset using the LangSmith SDK and client. Uploaded examples t
 - Datasets contain input/output pairs for evaluation and few-shot examples
 - Examples can be added individually or in bulk
 - Generated 5 unique examples using GPT-4o-mini instead of using the provided examples
-- split the dataset for crucial exampels
+- split the dataset for crucial exampels  
+  [module02/Datasets](module02/DatasetUpload.ipynb)
+
+_Lesson02:_  
+Evaluators compare the dataset example against the output run from your app
+
+- Take app output + reference Q&A pairs
+- Score based on defined criteria
+- Multiple evaluation methods available
+
+Different evaluators catch different failure modes - similarity alone isn't enough, need to check correctness and hallucinations separately.  
+ [module02/Evaluator](module02/Evaluator.ipynb)
