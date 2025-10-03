@@ -29,3 +29,17 @@ Maintained conversation context by passing a metakey (thread_id) with a uuid val
 Tested the model's ability to recall previous responses when answering follow-up questions within the same thread = threads don't give the model actual memory. They just link traces together in LangSmith's UI for tracking purposes.  
 All traces with the same UUID belong to one conversation and LangSmith groups them together for easy viewing  
 [module01/ConversationalThreads](model01/ConversationalThreads.ipynb)
+<br>
+<br>
+<br>
+
+### **Module02:**
+
+_Lesson01:_  
+Datasets are fundamentally a list of examples.  
+Created a custom dataset using the LangSmith SDK and client. Uploaded examples to LangSmith as a new dataset, both manually and by generating AI examples with OpenAI.
+
+- Datasets contain input/output pairs for evaluation and few-shot examples
+- Examples can be added individually or in bulk
+- Generated 5 unique examples using GPT-4o-mini instead of using the provided examples
+- split the dataset for crucial exampels
