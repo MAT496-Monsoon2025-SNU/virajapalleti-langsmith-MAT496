@@ -76,11 +76,11 @@ Pairwise evaluations compare multiple experiments head-to-head without reference
 - No ground truth needed - judge outputs against each other  
    [module02/PairwiseExperiments](module02/PairwiseExperiments.ipynb)
 
-  _Lesson06: Summary Evaluators_  
-  Summary evaluators aggregate results across multiple runs to compute experiment-level metrics.
-  Key concepts:
+_Lesson06: Summary Evaluators_  
+ Summary evaluators aggregate results across multiple runs to compute experiment-level metrics.
+Key concepts:
 
-* Aggregate metrics (precision, recall, F1) need full dataset - meaningless for single examples
-* Take list of Runs + Examples as input
-* Provide experiment-wide performance view  
+- Aggregate metrics (precision, recall, F1) need full dataset - meaningless for single examples
+- Take list of Runs + Examples as input
+- Provide experiment-wide performance view  
   [module02/SummaryEvaluators](module02/SummaryEvaluators.ipynb)
