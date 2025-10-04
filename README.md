@@ -2,7 +2,7 @@
 
 ## INSIGHTS:
 
-### **Module01:**
+## **Module01:**
 
 _Lesson01: Tracing Basics_  
 Learnt about tracing: projects -> traces -> runs === run trees  
@@ -33,7 +33,7 @@ All traces with the same UUID belong to one conversation and LangSmith groups th
 <br>
 <br>
 
-### **Module02:**
+## **Module02:**
 
 _Lesson01:_  
 Datasets are fundamentally a list of examples.  
@@ -74,4 +74,13 @@ Pairwise evaluations compare multiple experiments head-to-head without reference
 - Define pairwise evaluators using LLM-as-Judge or heuristics
 - Direct comparison reveals relative strengths
 - No ground truth needed - judge outputs against each other  
-  [module02/PairwiseExperiments](module02/PairwiseExperiments.ipynb)
+   [module02/PairwiseExperiments](module02/PairwiseExperiments.ipynb)
+
+  _Lesson06: Summary Evaluators_  
+  Summary evaluators aggregate results across multiple runs to compute experiment-level metrics.
+  Key concepts:
+
+* Aggregate metrics (precision, recall, F1) need full dataset - meaningless for single examples
+* Take list of Runs + Examples as input
+* Provide experiment-wide performance view  
+  [module02/SummaryEvaluators](module02/SummaryEvaluators.ipynb)
