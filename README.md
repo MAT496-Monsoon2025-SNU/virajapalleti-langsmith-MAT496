@@ -67,3 +67,11 @@ Experiments combine datasets and evaluators - run your app over a dataset and ev
 _Lesson04: Analyzing Experiments_  
 Analyzed experiment results to identify patterns and insights. Documented key observations  
 [module02/AnalyzingExperiments](module02/AnalyzingExperimentResults.ipynb)
+
+_Lesson05: Pairwise Exoeriments_
+Pairwise evaluations compare multiple experiments head-to-head without reference outputs. Useful for A/B testing prompts or models.
+
+- Define pairwise evaluators using LLM-as-Judge or heuristics
+- Direct comparison reveals relative strengths
+- No ground truth needed - judge outputs against each other  
+  [module02/PairwiseExperiments](module02/PairwiseExperiments.ipynb)
