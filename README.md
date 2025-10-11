@@ -83,4 +83,16 @@ Key concepts:
 - Aggregate metrics (precision, recall, F1) need full dataset - meaningless for single examples
 - Take list of Runs + Examples as input
 - Provide experiment-wide performance view  
-  [module02/SummaryEvaluators](module02/SummaryEvaluators.ipynb)
+   [module02/SummaryEvaluators](module02/SummaryEvaluators.ipynb)
+  <br>
+  <br>
+  <br>
+
+## **Module03:**
+
+_Lesson01:_
+
+- Used create_dataset() for database setup
+- Create_examples() to add input/output pairs programmatically
+- Loaded custom embedded systems dataset
+  [module03/PlaygroundExperiments](module03/PlaygroundExperiments.ipynb)
