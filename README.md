@@ -90,14 +90,14 @@ Key concepts:
 
 ## **Module03:**
 
-_Lesson01:_
+_Lesson01: Playground Experiments_
 
 - Used create_dataset() for database setup
 - Create_examples() to add input/output pairs programmatically
 - Loaded custom embedded systems dataset
   [module03/PlaygroundExperiments](module03/PlaygroundExperiments.ipynb)
 
-_Lesson02:_
+_Lesson02:PromptHub_  
 If you pull with include_model=True, calling .invoke() actually runs the model and gives you back a response, thus we used include_model=False to only work with the prompt structure.
 
 - pull_prompt() grabs prompts created from LangSmith Hub. (We can set include_model=False to get just the template without the attached model)
