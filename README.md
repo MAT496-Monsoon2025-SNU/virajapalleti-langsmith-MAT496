@@ -96,3 +96,12 @@ _Lesson01:_
 - Create_examples() to add input/output pairs programmatically
 - Loaded custom embedded systems dataset
   [module03/PlaygroundExperiments](module03/PlaygroundExperiments.ipynb)
+
+_Lesson02:_
+If you pull with include_model=True, calling .invoke() actually runs the model and gives you back a response, thus we used include_model=False to only work with the prompt structure.
+
+- pull_prompt() grabs prompts created from LangSmith Hub. (We can set include_model=False to get just the template without the attached model)
+- .invoke() fills template variables with actual values. (This one lets us turn {question} into real questions)
+- convert_prompt_to_openai_format() converts LangChain prompts to OpenAI format
+- push_prompt() uploads prompts to the Hub
+  [module03/PromptHub.ipynb](module03/PromptHub.ipynb)
