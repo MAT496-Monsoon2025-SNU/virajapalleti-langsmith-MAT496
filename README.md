@@ -116,7 +116,7 @@ _Lesson03: PromptEngineeringLifecycle_
 - Re-evaluate to confirm improvements  
   [module03/PromptEngineeringLifecycle.ipynb](module03/PromptEngineeringLifecycle.ipynb)
 
-_Lesson04: PromptCanvas_
+_Lesson04: PromptCanvas_  
 What it does? :  
 Basically, Prompt Canvas helps you craft prompts using LLM's making the process easier for us. Instead of manually tweaking prompts over time, Canvashelps save tons of time and catches issues easily. Especially useful when you're not sure why a prompt isn't working.
 
