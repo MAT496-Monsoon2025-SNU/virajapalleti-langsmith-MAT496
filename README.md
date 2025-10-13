@@ -94,7 +94,7 @@ _Lesson01: Playground Experiments_
 
 - Used create_dataset() for database setup
 - Create_examples() to add input/output pairs programmatically
-- Loaded custom embedded systems dataset
+- Loaded custom embedded systems dataset  
   [module03/PlaygroundExperiments](module03/PlaygroundExperiments.ipynb)
 
 _Lesson02: PromptHub_  
@@ -103,15 +103,23 @@ If you pull with include_model=True, calling .invoke() actually runs the model a
 - pull_prompt() grabs prompts created from LangSmith Hub. (We can set include_model=False to get just the template without the attached model)
 - .invoke() fills template variables with actual values. (This one lets us turn {question} into real questions)
 - convert_prompt_to_openai_format() converts LangChain prompts to OpenAI format
-- push_prompt() uploads prompts to the Hub
+- push_prompt() uploads prompts to the Hub  
   [module03/PromptHub.ipynb](module03/PromptHub.ipynb)
 
-_Lesson03: PromptEngineeringLifecycle.ipynb_
+_Lesson03: PromptEngineeringLifecycle_
 
 - Started with a basic prompt template
 - Define prompt template with clear instructions
 - Load test dataset for evaluation
 - Run experiments and review outputs (as in used repetitions to check consistency + wanted to see if it gives the same answer again)
 - Adjust prompt based on failures/edge cases
-- Re-evaluate to confirm improvements
+- Re-evaluate to confirm improvements  
   [module03/PromptEngineeringLifecycle.ipynb](module03/PromptEngineeringLifecycle.ipynb)
+
+_Lesson04: PromptCanvas_
+What it does? :  
+Basically, Prompt Canvas helps you craft prompts using LLM's making the process easier for us. Instead of manually tweaking prompts over time, Canvashelps save tons of time and catches issues easily. Especially useful when you're not sure why a prompt isn't working.
+
+- AI suggestions = LLM itself will suggest improvements for your prompt.
+- Diff view = to see exactly what changed between versions, makes tracking very clear to follow.
+- Quick actions = Standardized operations you can apply across prompts.
