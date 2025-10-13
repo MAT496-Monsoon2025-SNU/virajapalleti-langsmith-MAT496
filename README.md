@@ -97,7 +97,7 @@ _Lesson01: Playground Experiments_
 - Loaded custom embedded systems dataset
   [module03/PlaygroundExperiments](module03/PlaygroundExperiments.ipynb)
 
-_Lesson02:PromptHub_  
+_Lesson02: PromptHub_  
 If you pull with include_model=True, calling .invoke() actually runs the model and gives you back a response, thus we used include_model=False to only work with the prompt structure.
 
 - pull_prompt() grabs prompts created from LangSmith Hub. (We can set include_model=False to get just the template without the attached model)
@@ -105,3 +105,13 @@ If you pull with include_model=True, calling .invoke() actually runs the model a
 - convert_prompt_to_openai_format() converts LangChain prompts to OpenAI format
 - push_prompt() uploads prompts to the Hub
   [module03/PromptHub.ipynb](module03/PromptHub.ipynb)
+
+_Lesson03: PromptEngineeringLifecycle.ipynb_
+
+- Started with a basic prompt template
+- Define prompt template with clear instructions
+- Load test dataset for evaluation
+- Run experiments and review outputs (as in used repetitions to check consistency + wanted to see if it gives the same answer again)
+- Adjust prompt based on failures/edge cases
+- Re-evaluate to confirm improvements
+  [module03/PromptEngineeringLifecycle.ipynb](module03/PromptEngineeringLifecycle.ipynb)
